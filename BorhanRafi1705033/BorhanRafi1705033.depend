@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1616045469 source:e:\project\borhanrafi1705033\getch.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"cal.h"
+
+1616045882 e:\project\borhanrafi1705033\cal.h
+
+1616046027 source:e:\project\borhanrafi1705033\getop.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"cal.h"
+
+1616046491 source:e:\project\borhanrafi1705033\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<math.h>
+	"cal.h"
+
+1616046044 source:e:\project\borhanrafi1705033\stack.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"cal.h"
+
