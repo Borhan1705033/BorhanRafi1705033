@@ -4,7 +4,7 @@
 	->  Reverse Polish Notation is a way of expressing arithmetic expressions that avoids the use of brackets to define priorities for evaluation of operators.
 
 
-	->  To evaluate a postfix (RPN) expression, let's use a stack. Recall that a stack is a LIFO data structure.The method is follows, evaluating the expression from left to right:
+	->  To evaluate a postfix (RPN) expression, let's use a stack. Recall that a stack is a LIFO data structure.The method is follows, evaluating the expression from left to 	      right:
 
 		*When you encounter an operand, push it onto the stack.
 		*When you encounter an operator, pop two values from the stack and push the result back onto the stack.
@@ -19,11 +19,11 @@
 
 		- Push 3 onto the stack.
 		- Push 5 onto the stack. Reading from the top, the stack now contains (5, 3).
-		- Apply the + operation: take the top two numbers off the stack, add them together, and put the result back on the stack. The stack now contains just the number 8.
+		- Apply the + operation: take the top two numbers off the stack, add them together, and put the result back on the stack. The stack now contains just the number 		   8.
 		- Push 7 onto the stack.
 		- Push 2 onto the stack. It now contains (2, 7, 8).
- 		- Apply the – operation: take the top two numbers off the stack, subtract the top one from the one below, and put the result back on the stack. The stack now contains (5, 8).
-		- Apply the * operation: take the top two numbers off the stack, multiply them together, and put the result back on the stack. The stack now contains just the number 40.
+ 		- Apply the – operation: take the top two numbers off the stack, subtract the top one from the one below, and put the result back on the stack. The stack now 			  contains (5, 8).
+		- Apply the * operation: take the top two numbers off the stack, multiply them together, and put the result back on the stack. The stack now contains just the 			  number 40.
 
 
 	***Installation Process:
